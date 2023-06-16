@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Tracks pdf, odt, pptx and txt version of openly accessible slides in google drive
+# Generate download links of pdf, odt, pptx and txt version of openly accessible slides in google drive
 #
 # expects a stream of slides ids (e.g., 134TrNhem_-fgXggbAWh0TyvHB7mxm7is2hMS9vIlfjU) on stdin
 #
