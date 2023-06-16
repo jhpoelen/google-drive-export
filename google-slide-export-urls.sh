@@ -13,4 +13,4 @@
 
 # for google drive id syntax https://developers.google.com/sheets/api/guides/concepts
 grep -oE 'https://docs.google.com/[a-z]+/d/[a-zA-Z0-9_-]+'\
- | awk '{ print $1 "/export/pdf\n" $1 "/export/pptx\n" $1 "/export/odp\n" $1 "/export/txt" }'
+ | awk '{ print $1 "/export/pdf\n" $1 "/export/pptx\n" $1 "/export/odp\n" $1 "/export/txt\n" $1 "export/png\n" }'
